@@ -10,3 +10,5 @@ npm install pg --save
 npx sequelize-cli model:generate --name User --attributes email:string
 npx sequelize-cli db:migarte
 npm install ejs express-ejs-layouts --save
+npx sequelize-cli model:generate --name PublicKeyCredentials --attributes public_key:string
+npx sequelize-cli db:migrate
