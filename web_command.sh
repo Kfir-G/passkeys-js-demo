@@ -8,4 +8,5 @@ npm install sequelize-cli --save
 npx sequelize-cli init
 npm install pg --save
 npx sequelize-cli model:generate --name User --attributes email:string
-npx sequelize-cli db:migarte 
+npx sequelize-cli db:migarte
+npm install ejs express-ejs-layouts --save
