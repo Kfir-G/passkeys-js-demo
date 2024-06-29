@@ -12,3 +12,5 @@ npx sequelize-cli db:migarte
 npm install ejs express-ejs-layouts --save
 npx sequelize-cli model:generate --name PublicKeyCredentials --attributes public_key:string
 npx sequelize-cli db:migrate
+npm install passport --save
+npm install passport-fido2-webauthn --save
