@@ -14,3 +14,7 @@ npx sequelize-cli model:generate --name PublicKeyCredentials --attributes public
 npx sequelize-cli db:migrate
 npm install passport --save
 npm install passport-fido2-webauthn --save
+npm install express-session --save
+npm install connect-session-sequelize --save
+npm install multer --save
+npm install cookie-parser --save
