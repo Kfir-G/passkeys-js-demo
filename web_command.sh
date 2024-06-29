@@ -18,3 +18,5 @@ npm install express-session --save
 npm install connect-session-sequelize --save
 npm install multer --save
 npm install cookie-parser --save
+npm install base64url --save
+npm install uuid --save
